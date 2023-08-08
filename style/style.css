@@ -1,4 +1,6 @@
-	#mainNavigation a {
+/* NAVBAR SCENEZ */
+
+#mainNavigation a {
       font-family: 'Cabin', sans-serif;
       font-size:14px;
       text-transform:uppercase;
@@ -42,3 +44,20 @@
       background-color: transparent;
       padding:12px;
     }
+
+/* LOGO_SCENZ */
+
+    .logo-stylez{
+      height: 95px;
+      width: 95px;
+    }
+
+#hero-page{
+  height: 90vh;
+  width: 100%;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
