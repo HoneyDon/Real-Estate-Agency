@@ -79,17 +79,30 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* BUTTONS_STYLEZ */
-.hero-button{
-  box-sizing: border-box;
-  margin: 0; padding: 0;
-  font-family: 'Roboto', sans-serif;
+/* HERO_BUTTON */
+
+.button {
+  width: 170px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 40%;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
 }
 
-.btn.hover-slide-right::before {
-  top: 0; bottom: 0; left: 0; 
-  height: 100%; width: 0%;
+.button-3 {
+  border: 1px solid #BF5630;
+  background-color: #D9B777;
+  border-radius: 20px;
+  color: #fff;
+  transition: .3s;
 }
-.btn.hover-slide-right:hover::before {
-  width: 100%;
+.button-3:hover {
+  box-shadow: 8px 8px #99bdff;
+  transition: .3s;
 }
