@@ -117,3 +117,12 @@
   background-color: white;
 }
 
+.section-2-heading{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
