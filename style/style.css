@@ -103,7 +103,6 @@
 .button-3 {
   background-color: #c75d37;
   border-radius: 20px;
-  color: whitesmoke;
   transition: .3s;
   text-decoration: none; /* Remove underline */
   color: black; /* Use the default text color */
