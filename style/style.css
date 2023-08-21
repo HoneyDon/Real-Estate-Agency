@@ -1,56 +1,67 @@
 /* NAVBAR SCENEZ */
 
 #mainNavigation a {
-      font-family: 'Cabin', sans-serif;
-      font-size:15px;
-      text-transform:uppercase;
-      letter-spacing:2px;
-      text-shadow:1px 1px 2px rgba(0,0,0,0.4)
-    }
-    a.dropdown-toggle {
-      color:#dfdfdf !important
-    }
-    a.dropdown-item:hover {
-      color:#03727d !important
-    }
-    .nav-item a{
-      color:#dfdfdf;
-    }
-    .nav-item a:hover {
-      color:#fff
-    }
-    .nav-item{
-      min-width:12vw;
-    }
-    #mainNavigation {
-      position:fixed;
-      top:0;
-      left:0;
-      width:100%;
-      z-index:123;
-      padding-bottom:120px;
-      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-    }
-    #navbarNavDropdown.collapsing .navbar-nav,
-    #navbarNavDropdown.show .navbar-nav{
-      background-color: transparent;
-      padding:12px;
-    }
+  font-family: 'Cabin', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+}
+
+a.dropdown-toggle {
+  color: #dfdfdf !important
+}
+
+a.dropdown-item:hover {
+  color: #03727d !important
+}
+
+.nav-item a {
+  color: #dfdfdf;
+}
+
+.nav-item a:hover {
+  color: #fff
+}
+
+.nav-item {
+  min-width: 12vw;
+}
+
+#mainNavigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 123;
+  padding-bottom: 120px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+}
+
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav {
+  background-color: transparent;
+  padding: 12px;
+}
 
 /* LOGO_SCENZ */
 
-    .logo-stylez{
-      height: 95px;
-      width: 95px;
-    }
+.logo-stylez {
+  height: 95px;
+  width: 95px;
+}
 
 /* HERO_IMAGE */
 
-#hero-page{
+#hero-page {
   height: 100vh;
   width: 100%;
   background-image: url(../assets/Hero-Background-Image.jpg);
@@ -61,7 +72,7 @@
   backdrop-filter: blur(0.5px);
 }
 
-.headline-text{
+.headline-text {
   text-align: center;
   justify-content: center;
   margin-top: 28%;
@@ -71,7 +82,7 @@
   font-weight: 500;
 }
 
-.sub-headline-text{
+.sub-headline-text {
   text-align: center;
   justify-content: center;
   color: #D9B777;
@@ -96,33 +107,40 @@
   margin-top: 50px;
   cursor: pointer;
   display: inline-block;
-  text-decoration: none; /* Remove underline */
-  color: black; /* Use the default text color */
+  text-decoration: none;
+  /* Remove underline */
+  color: black;
+  /* Use the default text color */
 }
 
 .button-3 {
   background-color: #c75d37;
   border-radius: 20px;
   transition: .3s;
-  text-decoration: none; /* Remove underline */
-  color: black; /* Use the default text color */
+  text-decoration: none;
+  /* Remove underline */
+  color: black;
+  /* Use the default text color */
 }
+
 .button-3:hover {
   box-shadow: 8px 8px #cf714f;
   transition: .3s;
-  text-decoration: none; /* Remove underline */
-  color: gold; /* Use the default text color */
+  text-decoration: none;
+  /* Remove underline */
+  color: gold;
+  /* Use the default text color */
 }
 
 
 
 /* SECTION_2_SOCIETY */
 
-#Society-section{
+#Society-section {
   background-color: white;
 }
 
-.section-2-heading{
+.section-2-heading {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -132,7 +150,7 @@
   padding-bottom: 25px;
 }
 
-.section-2-sub-heading{
+.section-2-sub-heading {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
