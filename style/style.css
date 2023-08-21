@@ -96,6 +96,8 @@
   margin-top: 50px;
   cursor: pointer;
   display: inline-block;
+  text-decoration: none; /* Remove underline */
+  color: black; /* Use the default text color */
 }
 
 .button-3 {
@@ -103,10 +105,14 @@
   border-radius: 20px;
   color: whitesmoke;
   transition: .3s;
+  text-decoration: none; /* Remove underline */
+  color: black; /* Use the default text color */
 }
 .button-3:hover {
   box-shadow: 8px 8px #cf714f;
   transition: .3s;
+  text-decoration: none; /* Remove underline */
+  color: gold; /* Use the default text color */
 }
 
 
