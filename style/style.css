@@ -170,3 +170,12 @@ a.dropdown-item:hover {
   padding-top: 35px;
   padding-bottom: 25px;
 }
+
+.section-3-sub-heading {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 40px;
+}
