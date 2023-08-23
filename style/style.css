@@ -156,7 +156,7 @@ a.dropdown-item:hover {
   font-weight: 100;
   font-size: 20px;
   color: #000;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 /* SECTION_3_OUR_TEAM */
@@ -183,6 +183,12 @@ a.dropdown-item:hover {
 .ourTeam h2 {
   color: #fff;
   margin: 0 0 30px 0
+}
+
+.ourTeam .i {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
 }
 
 .ourTeam .i .c {
