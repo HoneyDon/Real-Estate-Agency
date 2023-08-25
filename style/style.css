@@ -65,7 +65,7 @@ a.dropdown-item:hover {
   height: 100vh;
   width: 100%;
   background-image: url(../assets/Hero-Background-Image.jpg);
-  transition: background-color 0.5s ease;
+  transition: background-image 0.5s ease;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
