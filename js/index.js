@@ -1,14 +1,18 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const transitionSection = document.querySelector('.transition-section');
-  const triggerScroll = 300; // Adjust this value based on when you want the transition to start
+<script>
+  const header = document.querySelector('.color-changing-header');
+  const content = document.querySelector('.content');
+  
+  const colorStart = [255, 255, 255]; // Starting color (white)
+  const colorEnd = [0, 0, 0]; // Ending color (black)
+  const scrollHeight = content.clientHeight - window.innerHeight;
 
-  function handleScroll() {
-    if (window.scrollY >= triggerScroll) {
-      transitionSection.classList.add('active');
-    } else {
-      transitionSection.classList.remove('active');
-    }
+  function changeBackgroundColor() {
+    const scrollPercentage = window.scrollY / scrollHeight;
+    const color = colorStart.map((start, index) =>
+      Math.round(start - (start - colorEnd[index]) * scrollPercentage)
+    );
+    header.style.backgroundColor = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
   }
 
-  window.addEventListener('scroll', handleScroll);
-});
+  window.addEventListener('scroll', changeBackgroundColor);
+</script>
