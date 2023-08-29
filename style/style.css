@@ -137,7 +137,7 @@ a.dropdown-item:hover {
 /* SECTION_2_SOCIETY */
 
 #Society-section {
-  background-color: #260101;
+  background-color: #8C5332;
 }
 
 .section-2-heading {
@@ -145,7 +145,7 @@ a.dropdown-item:hover {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 40px;
-  color: white;
+  color: black;
   padding-top: 35px;
   padding-bottom: 25px;
 }
@@ -162,7 +162,7 @@ a.dropdown-item:hover {
 /* SECTION_3_OUR_TEAM */
 
 #our-team {
-  background-color: #8C5332;
+  background-color: #260101;
 }
 
 .section-3-heading {
@@ -170,7 +170,7 @@ a.dropdown-item:hover {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 40px;
-  color: #000;
+  color: white;
   padding-top: 35px;
   padding-bottom: 20px;
 }
