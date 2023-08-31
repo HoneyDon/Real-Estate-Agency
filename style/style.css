@@ -1,3 +1,7 @@
+section {
+  transition: background-color 1s ease-in-out;
+}
+
 /* NAVBAR SCENEZ */
 
 #mainNavigation a {
@@ -79,7 +83,7 @@ a.dropdown-item:hover {
   color: #BF5630;
   font-size: 65px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 520;
 }
 
 .sub-headline-text {
@@ -88,6 +92,7 @@ a.dropdown-item:hover {
   color: #D9B777;
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 /* HERO_BUTTON */
