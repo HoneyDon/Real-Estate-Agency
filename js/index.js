@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const rect = section.getBoundingClientRect();
       const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
       const scrollPercentage = Math.abs(rect.top / window.innerHeight);
-      const backgroundColor = isVisible ? `rgba(0, 0, 0 ${scrollPercentage})` : "";
+      const backgroundColor = isVisible ? `rgba(255, 255, 255 ${scrollPercentage})` : "";
 
       section.style.backgroundColor = backgroundColor;
     });
