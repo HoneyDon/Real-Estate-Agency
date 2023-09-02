@@ -387,7 +387,7 @@ ul {
 }
 
 .contact-content p::after {
-  background: #353C46;
+  background: #869eab;
   bottom: -30px;
   content: "";
   height: 1px;
